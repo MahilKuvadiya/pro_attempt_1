@@ -31,6 +31,26 @@
           <version>2.3</version>
           <scope>provided</scope>
       </dependency>
+      <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+      <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.0.33</version>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/javax.websocket/javax.websocket-api -->
+      <dependency>
+          <groupId>javax.websocket</groupId>
+          <artifactId>javax.websocket-api</artifactId>
+          <version>1.1</version>
+          <scope>provided</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/javax.json/javax.json-api -->
+      <dependency>
+          <groupId>javax.json</groupId>
+          <artifactId>javax.json-api</artifactId>
+          <version>1.1.4</version>
+      </dependency>
+
 
       <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -49,7 +69,7 @@
           <artifactId>jstl</artifactId>
           <version>1.2</version>
       </dependency>
-
+      <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 
   </dependencies>
 

@@ -4,7 +4,6 @@ public class User {
     private String username;
     private String password;
     private boolean gender;
-    private String avatar;
     private boolean isOnline;
     private boolean isAdmin;
 
@@ -16,7 +15,6 @@ public class User {
         this.username = username;
         this.password = password;
         this.gender = gender;
-        this.avatar = avatar;
     }
 
     public String getUsername() {
@@ -35,13 +33,6 @@ public class User {
         this.gender = gender;
     }
 
-    public String getAvatar() {
-        return avatar;
-    }
-
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
-    }
 
     public String getPassword() {
         return password;
